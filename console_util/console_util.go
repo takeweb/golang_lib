@@ -3,7 +3,7 @@ package console_util
 import "fmt"
 
 func Input(msg string) string {
-	var value string
+	value := ""
 	fmt.Print(msg + ": ")
 	fmt.Scan(&value)
 	return value
