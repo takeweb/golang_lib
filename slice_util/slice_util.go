@@ -3,13 +3,13 @@ package slice_util
 import "reflect"
 
 // General is all type data.
-type General_s []interface{}
+type General []interface{}
 
 // 最後に追加
-func Push(a []General_s, v ...General) []General {
+func Push(a []General, v ...General) []General {
 	var dd General
 	if reflect.TypeOf(a) == reflect.SliceOf(reflect.TypeOf("")) {
-		sd.Data = a.([]string)
+		dd = a.([]string)
 	}
 	if reflect.TypeOf(a).Kind() == reflect.String {
 		b := a.([]string)

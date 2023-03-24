@@ -1,3 +1,3 @@
 module github.com/takeweb/golang_lib/slice_util
 
-go 1.16
+go 1.18
